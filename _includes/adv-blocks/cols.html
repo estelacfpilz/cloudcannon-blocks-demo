@@ -1,0 +1,11 @@
+<section class="grid">
+
+  {% for col in block.columns %}
+
+  <div class="{{col.size}} {{col.class}}">
+    {{col.column_html}}
+  </div>
+
+  {% endfor %}
+
+</section>

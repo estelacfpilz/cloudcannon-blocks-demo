@@ -1,0 +1,11 @@
+---
+layout: default
+page_blocks:
+---
+
+<!-- Page blocks  -->
+{% for block in page.page_blocks %}
+
+  {% include blocks/{{block._id}}.html block=block %}
+
+{% endfor %}
