@@ -27,3 +27,16 @@ _array_structures:
         block-class:
         col-1_html:
         col-2_html:
+    - label: Flexible Cols
+      icon: format_quote
+      value:
+        _id: cols
+        block-class:
+        columns: []
+  columns:
+    label: Column
+    icon: collections
+    value:
+      size:
+      class:
+      column_html:
